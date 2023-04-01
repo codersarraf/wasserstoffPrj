@@ -1,0 +1,75 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+} */
+#header{
+    font-family: 'Roboto', sans-serif; 
+    display: flex;  
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #fff;
+    height: 7vh;
+
+/* position: relative ; */
+/* left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%; */
+/* width: 100vw;
+height: 4rem;
+background: #ffffff;
+display: flex;
+align-items: center;
+margin: auto; */
+}
+#logo{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 3rem;
+
+}
+#logo_name{
+    margin-top: 0%;
+    margin-left: 0.5rem;
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.25rem;
+    color: #000000;
+
+}
+
+#searchbar{
+    width: 19.5rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin-left: 8.875rem;
+    background-color:#EEF0FA;
+}
+#nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 4.6rem;
+    height: 1.5rem;
+}
+
+#nav li{
+    margin-left: 5.25rem;
+    line-height: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    /* font-weight: 300; */
+    font-size: 1rem;
+    line-height: 1.5remx;
+    color:#8484A0;
+    ;
+}
+
+#icons{
+    color:#8484A0;
+    position: relative;
+    left: 42rem;
+    top: 0.4rem;
+
+}

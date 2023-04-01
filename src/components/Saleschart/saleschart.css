@@ -1,0 +1,38 @@
+/* #sales{
+    width: 80vw;
+    height: 5.375rem;
+    display: flex;
+    align-items: center;
+} */
+
+#salesinfo{
+    background-color: #fff;
+    width: 75vw;
+    height: 5.375rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border-radius: 0.6rem;
+}
+
+#sales{
+    display: flex;
+    align-items: center;
+}
+
+#sales_figure{
+    width: auto;
+    height: auto;
+}
+
+#sales_data{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.7rem;
+    margin-left: 0.5rem;
+}
+
+#barchart{
+    width: 65vw;
+    height: 3.8rem;
+}

@@ -1,0 +1,21 @@
+#Overview{
+    /* width: 65vw; */
+    height: 90vh;
+    background-color:  #E2E4F0;
+    display: flex;
+}
+#modal_cont{
+    display: flex;
+    flex-direction: column;
+}
+#overviewBtn{
+    max-width: 10rem;
+}
+
+
+#mapchart_cont{
+    display: flex;
+    flex-direction: column;
+    width: 83rem;
+    height: 42rem;
+}

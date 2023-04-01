@@ -1,0 +1,106 @@
+#sidebar{
+    width: 18rem;
+    height: 38rem;
+    display: flex;
+    flex-direction: column;
+    background-color:  #E2E4F0;
+    padding: 1rem;
+}
+#sidebar_heading{
+    font-family: 'Archivo', sans-serif;
+    margin-top: 1.4rem;
+    width: 16rem;
+    height: 2.7rem;
+
+}
+
+
+#all_user_data{
+    font-weight: 500;
+    color:#383874;
+    width: 10rem;
+    height: 7rem;
+    font-size: 4rem;
+}
+
+#small_text{
+    font-size: 0.7rem;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 1rem;
+    font-weight: 700;
+
+}
+
+#all_user{
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2rem;
+}
+.desc{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+}
+.desc_num{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+#logos1, #logos2, #logos3{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.1rem;
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logos1{
+    background-color: #8676FF;
+}
+#logos2{
+    background-color: #66C8FF;
+}
+#logos3{
+    background-color: #FF9066;
+}
+.desc_logo{
+    border-radius: 50%;
+    font-size: 1rem;
+    color: white;
+    border: #ffff solid 0.1rem;
+}
+
+.sidebar_data{
+    display: flex;
+    gap: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.active_user{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+}
+
+.user_data{
+    margin-top: 5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+/* .user_percentage{
+     width: 2rem; 
+} */

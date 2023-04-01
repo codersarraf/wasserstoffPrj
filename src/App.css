@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+
+}
+.App{
+  width: 100vw;
+  height: 100vh;
+}
+#map_body{
+  display: flex;
+  background-color: #E2E4F0;
+}
+
+#modals{
+  position: fixed;
+  z-index: 999;
+  top: 6rem;
+  left: 22rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgba(128, 128, 128, 0.553) */
+}
+

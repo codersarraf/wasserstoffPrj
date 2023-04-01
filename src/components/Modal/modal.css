@@ -1,0 +1,8 @@
+#modal{
+    width: 80vw;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #FFFFFF; */
+}

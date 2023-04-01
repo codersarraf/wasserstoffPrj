@@ -1,0 +1,16 @@
+
+#footer_desc{
+    margin-left: 4rem;
+}
+#footer_year{
+    margin-right: 8rem;
+}
+
+#footer{
+    font-family: 'Roboto', sans-serif; 
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 4vh;
+}

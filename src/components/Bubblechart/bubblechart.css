@@ -1,0 +1,12 @@
+#chart{
+    width: 50rem;
+    height: 30rem;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
+
+#chart_container{
+    width: 50rem;
+    height: 30rem;
+}
