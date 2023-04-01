@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import { Scatter } from '@ant-design/plots';
 import '../Bubblechart/bubblechart.css'

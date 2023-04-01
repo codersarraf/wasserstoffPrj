@@ -1,9 +1,7 @@
 import React from 'react'
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Analytics from '../components/Pages/Analytics';
+import { Routes, Route } from "react-router-dom";
 import Overview from '../components/Pages/Overview/Overview';
-import Statistics from '../components/Pages/Statistics/Statistics';
 import Dashboard from '../components/Pages/Dashboard';
 
 function AppRoutes() {
