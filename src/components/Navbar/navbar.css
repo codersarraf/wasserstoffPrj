@@ -1,0 +1,9 @@
+ul li a.active{
+    color:#000000;
+    font-weight: 900;
+
+}
+
+ul li a:link{
+    text-decoration: none;
+}

@@ -1,10 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+
+
 import { Scatter } from '@ant-design/plots';
 import '../Bubblechart/bubblechart.css'
 
 const BubbleChart = () => {
-//   const [data, setData] = useState([]);
+  
 
   const data = [
     {
@@ -144,13 +145,13 @@ const BubbleChart = () => {
     },
   };
 
-  return ReactDOM.createPortal(
+  return (
      <div id="chart">
             <div id='chart_container'>
             <Scatter {...config} />
             </div>   
-        </div>,
-        document.getElementById("modals")
+        </div>
+        // document.getElementById("modals")
   )
 };
 

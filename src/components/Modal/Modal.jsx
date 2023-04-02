@@ -1,13 +1,18 @@
-import React from 'react'
-import BubbleChart from '../Bubblechart/BubbleChart'
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
 import '../Modal/modal.css'
+import BubbleChart from '../Bubblechart/BubbleChart';
 
 
-function Modal() {
-  return (
+
+function Modal({setModal}) {
+  const [btndata, setbtndata] = useState("X");
+  return ReactDOM.createPortal(
     <div id="modal">
         <BubbleChart/>
-    </div>
+        <button className='closeBtn' onMouseOver={()=>setbtndata("Close")} onClick={()=>setModal(false)}>{btndata}</button>
+    </div>,
+    document.getElementById("modals")
   )
 }
 

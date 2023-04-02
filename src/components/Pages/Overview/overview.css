@@ -1,21 +1,25 @@
 #Overview{
-    /* width: 65vw; */
-    height: 90vh;
+    width: 100vwvw;
+    height: 85vh;
     background-color:  #E2E4F0;
     display: flex;
+    justify-content: center;
 }
 #modal_cont{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 #overviewBtn{
     max-width: 10rem;
+    border-radius: 1.5rem;
 }
 
 
 #mapchart_cont{
     display: flex;
     flex-direction: column;
-    width: 83rem;
-    height: 42rem;
+    align-items: center;
+    width: 82vw;
+    height: 85vh;
 }

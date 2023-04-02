@@ -12,7 +12,7 @@ function Sidebar() {
         <div id="all_user_data">2,431,340</div>
         <div className="sidebar_data">
           <div id="logos1">
-            <span class="material-symbols-rounded desc_logo">moving</span>
+            <span className="material-symbols-rounded desc_logo">moving</span>
           </div>
           <div className="data">
             <div className="desc">Total earning</div>

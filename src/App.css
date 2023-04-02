@@ -15,14 +15,16 @@ body {
   background-color: #E2E4F0;
 }
 
-#modals{
+ #modals{
+  /* width: 100vw;
+  height: 100vh; */
   position: fixed;
   z-index: 999;
-  top: 6rem;
-  left: 22rem;
+  top: 0rem;
+  left: 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: rgba(128, 128, 128, 0.553) */
-}
+  /* background-color: rgba(127, 255, 212, 0.796); */
+} 
 

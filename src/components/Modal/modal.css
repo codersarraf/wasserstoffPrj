@@ -1,8 +1,15 @@
 #modal{
-    width: 80vw;
-    height: 75vh;
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 5rem;
+    bottom: 3rem;
+    gap: -2rem;
+    /* top: 5rem; */
+    /* align-items: center; */
     justify-content: center;
+    align-items: center;
     /* background-color: #FFFFFF; */
 }

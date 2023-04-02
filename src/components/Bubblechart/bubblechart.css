@@ -1,12 +1,22 @@
 #chart{
-    width: 50rem;
-    height: 30rem;
-    margin: auto;
+    width: 40rem;
+    height: 32rem;
+    /* margin: auto; */
     background-color: #fff;
     border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
 }
 
 #chart_container{
-    width: 50rem;
-    height: 30rem;
+    width: 46rem;
+    height: 25rem;
+}
+
+.closeBtn{
+    background-color: #4e42d4;
+    color: #fff;
+    font-family: 'Roboto', sans-serif; 
+    border-radius: 32%;
+
 }
