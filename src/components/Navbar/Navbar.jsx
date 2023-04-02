@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   return (
-      <nav id='nav'>
+      <nav className='nav'>
             <ul id='nav'>
                 <li><NavLink to="/statistics" className='index-link' >Statistics</NavLink></li>
                 <li><NavLink to="/overview" className='home-link'>Overview</NavLink></li>

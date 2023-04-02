@@ -13,3 +13,20 @@
     align-items: center;
     /* background-color: #FFFFFF; */
 }
+
+@media (max-width: 600px){
+#modal {
+    width: 53%;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -9.5rem;
+    top: 48rem;
+    gap: -2rem;
+    /* top: 5rem; */
+    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
+}
+}

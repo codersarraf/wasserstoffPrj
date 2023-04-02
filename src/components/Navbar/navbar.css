@@ -7,3 +7,29 @@ ul li a.active{
 ul li a:link{
     text-decoration: none;
 }
+
+
+    @media (max-width: 600px) { 
+        .nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+    
+        ul#nav{
+            /* flex-direction: column; */
+            /* align-items: flex-start; */
+            justify-content: center;
+            padding: 0.2rem;
+            width: 100%;
+            gap:1.3rem;
+        }
+        #icons{
+            display: none;
+        }
+    
+        #nav li{
+            margin: 0;
+        }
+    }

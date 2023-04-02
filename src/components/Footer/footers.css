@@ -14,3 +14,17 @@
     background-color: #fff;
     height: 7vh;
 }
+
+@media (max-width: 600px) { 
+   
+    #footer{
+        justify-content: center;
+        gap:8rem;
+    }
+    #footer_year {
+        margin-right: 0;
+    }
+    #footer_desc{
+        margin-left: 0;
+    }
+  }

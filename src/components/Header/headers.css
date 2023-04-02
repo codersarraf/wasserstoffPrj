@@ -52,10 +52,11 @@ margin: auto; */
     align-items: center;
     width: 4.6rem;
     height: 1.5rem;
+    gap: 7rem;
 }
 
 #nav li{
-    margin-left: 5.25rem;
+    /* margin-left: 5.25rem; */
     line-height: 1.5rem;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -63,13 +64,46 @@ margin: auto; */
     font-size: 1rem;
     line-height: 1.5remx;
     color:#8484A0;
-    ;
 }
 
 #icons{
     color:#8484A0;
     position: relative;
-    left: 42rem;
-    top: 0.4rem;
+    left: 40rem;
+    top: 0.35rem;
 
 }
+
+.cont{
+    display: flex;  
+    align-items: center;
+}
+
+@media (max-width: 600px) { 
+    #header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height:15rem;
+    }
+    .cont{
+        display: flex;
+        width: 100%;
+        gap: 1rem;
+    }
+    #icons{
+        display: none;
+    }
+
+    #searchbar{
+        width: 17rem;
+        margin-left: 0;
+        margin-top:0.5rem
+    }
+
+    #logo{
+        margin-left: 0;
+    }
+
+  }
+

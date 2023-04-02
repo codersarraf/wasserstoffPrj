@@ -28,3 +28,14 @@ body {
   /* background-color: rgba(127, 255, 212, 0.796); */
 } 
 
+@media (max-width: 600px) { 
+  html{
+
+    font-size: 80%;
+  }
+  .App{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}

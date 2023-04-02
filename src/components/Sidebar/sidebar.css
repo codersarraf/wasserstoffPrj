@@ -115,3 +115,49 @@
 /* .user_percentage{
      width: 2rem; 
 } */
+
+@media (max-width: 600px) { 
+    #sidebar{
+        width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 60%;
+      padding: 0;
+      margin: 1rem;
+    }
+
+    .sidebar_data{
+        /* width: 100%; */
+        margin-bottom: 1.6rem;
+    }
+    
+    .user_data {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .active_user{
+        width: auto;
+        gap: 1rem;
+    }
+    .user{
+        width: auto;
+
+    }
+
+    #sidebar_heading {
+        /* font-family: 'Archivo', sans-serif; */
+        margin-top: 0.5rem;
+        width: 16rem;
+        height: 2.7rem;
+        font-size: 1rem;
+    }
+    #all_user_data{
+        width:100%;
+    }
+    
+  }
+  

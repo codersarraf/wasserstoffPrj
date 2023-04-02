@@ -4,3 +4,11 @@
     width:60vw;
     height: 60vh;
 }
+
+@media (max-width: 600px) { 
+    #chart{
+        width: 100%;
+        height: 20rem;
+    }
+    
+  }
