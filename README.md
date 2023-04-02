@@ -1,10 +1,8 @@
 1. Project title :- Wasserstoff-project
 2. Stack/libraraies used:- React.js, Ant-design, D3.js, Google icons/fonts.
 
-3. Approach - i devide my project in 3 section :
-   a. Header
-   b. Sidebar/Main
-   c. Footer
+3. Approach - i devide my project in 4 section :
+   Header, Sidebar, Main and Footer.
 
    Then, i used "React.js" and libraries like "Ant-Design" "D3.js", "google fonts/icons" to create this project.
    This project is responsive for mobile devices too.
